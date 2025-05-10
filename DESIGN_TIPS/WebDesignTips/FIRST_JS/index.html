@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Grade</title>
+    </head>
+    <body>
+        <h1>JavaScript Grade</h1>
+        <p id="output"></p>
+
+    <script>
+        console.log("Hello World");
+        console.log("Hi");
+
+        var name ="Genro";
+        console.log("Name: " + name);
+
+        const grade1 = 85;
+        const grade2 = 90;
+        const grade3 = 78;
+        const grade4 = 88;
+        const grade5 = 92;
+
+        const total = grade1 + grade2 + grade3 + grade4 + grade5;
+        const average = total / 5;
+
+        console.log("Grage: ",grade1,grade2,grade3,grade4,grade5);
+        console.log("Total: " + total);
+        console.log("Average: " + average);
+
+        document.getElementById("output").innerHTML="Hello World <br> Hi <br> Name:" + name + 
+        "<br> Grade 1: " + grade1 +
+        "<br> Grade 2: " + grade2 +
+        "<br> Grade 3: " + grade3 +
+        "<br> Grade 4: " + grade4 +
+        "<br> Grade 5: " + grade5 +
+        "<br><strong>Total: " + total + "</strong>" + 
+        "<br><strong>Average: " + average + "</strong>" ;  
+</script>  
+</body>
+</html>

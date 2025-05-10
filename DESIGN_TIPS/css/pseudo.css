@@ -1,0 +1,16 @@
+a:link{
+    background-color: #e7ff0cab;
+    color:white
+}
+
+a:hover{
+    background-color: lightblue;
+    color: blue;
+}
+
+a:active{
+    background-color: red;
+    color: yellow;
+    height: 500px;
+    font-size: 100px;
+}
